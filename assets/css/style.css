@@ -26,3 +26,41 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 160%;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFA500;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    color: #7d12ff;
+}
+
+.active {
+   border-bottom: 2px solid #FFA500;
+}
+
+#hero-image {
+    height: 600px;
+    width: 50%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
