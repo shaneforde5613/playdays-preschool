@@ -59,8 +59,31 @@ h1, h2 {
    border-bottom: 2px solid #FFA500;
 }
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 50%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* creates zoom effecton loading page */
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
