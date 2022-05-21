@@ -7,6 +7,22 @@
 }
 
 body{
-    font-family: Bubblegum Sans, sans-serif;
+    font-family: Nunito, sans-serif;
     font-weight: 300;
+    color: #0000FF;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Bubblegum Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff1493;
+
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
