@@ -119,15 +119,22 @@ h1, h2 {
 
 /* second image holding hands */
 
-#second-image {
-    height: 300px;
-    width: 300px;
-}
 
-#second-image img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
-}
 
+
+
+
+/* class times */
+
+
+
+
+#class-times div {
+    width: 20%;
+    height: 150px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid purple;
+    box-sizing: border-box;
+}
