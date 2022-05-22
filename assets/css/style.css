@@ -138,3 +138,28 @@ h1, h2 {
     border: 2px solid purple;
     box-sizing: border-box;
 }
+
+/* socialnetwork links */
+
+footer {
+    height:75px;
+    
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display:inline;
+}
+
+.social i {
+    font-size: 320%;
+    margin: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
